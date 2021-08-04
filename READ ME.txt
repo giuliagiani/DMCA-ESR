@@ -1,4 +1,4 @@
-%This folder contins the Matlab functions to run the event identification given rainfall 
+%This folder contins the Matlab functions to run the event identification DMCA-ESR given rainfall 
 and streamflow (or eventually runoff) time series.
 
 %How to use it:
