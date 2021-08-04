@@ -1,0 +1,15 @@
+%This folder contins the Matlab functions to run the event identification given rainfall 
+and streamflow (or eventually runoff) time series.
+
+%How to use it:
+The file "example.m" contains an example of how to run all the functions taking the data
+from "daily_rainfall_27071.txt" and "daily_flow_27071.txt". 
+
+%Brief explenation of the files:
+"EVENT_IDENTIFICATION_DMCA.m" contains the routine to identify the events. It calls all the "STEP_xx_....m"
+functions, which corresponds to the Steps in Section 2.1.
+
+"EVENT_ANALYSIS.m" computes the event properties.
+
+"BASEFLOW_CURVE.m" produces the baseflow connecting the delimiters of the stremflow events.
+This function is also called by "EVENT_ANALYSIS.m".
